@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <nav>
+            <div class="logo">
+                <img src="./media/logo.png" alt="">
+            </div>
+            <div class="links">
+                <ul class="nav-links">
+                    <li class="hide"><a href="#">Home</a></li>
+                    <li class="hide"><a href="#">About Us</a></li>
+                    <li class="hide"><a href="#">Contact Us</a></li>
+                    <li>
+                        <span class="translation" id="google_translate_element"></span>
+                        <!-- <select class="display_btn" id="google_translate_element">
+                            <option class="btn">English</option>
+                            <option class="btn">हिन्दी</option>
+                            <option class="btn">বাংলা</option>
+                        </select>  -->
+                    </li>
+                    
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="ham" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                    
+                </ul>
+                <ul class="side-links">
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="close" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <!-- <li>
+                        <select class="display_btn">
+                            <option class="btn">English</option>
+                            <option class="btn">हिन्दी</option>
+                            <option class="btn">বাংলা</option>
+                        </select> 
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <img src="./media/line.png" alt="" class="line one">
+        <div class="content">
+            <div class="txt">
+                <h1>Hello Farmer !!</h1>
+                <p class="inline">I am </p><span class="agribot-size">AgriBot</span>
+                <p>I will help you select the best <span class="fert">fertilizers</span> for your field</p>
+                <a href="#" class="display_btn-get-started"><button>Get Started<i class="fa-solid fa-arrow-right"></i></button></a>
+            </div>
+            <div class="image">
+                <img src="./media/bot.png" alt="">
+            </div>
+        </div>
+        <img src="./media/line.png" alt="" class="line two">
+    </section>
+    <script src="./script.js"></script>
+    <!-- <script type="text/javascript">
+        function googleTranslateElementInit(){
+            new google.translate.TranslateElement({
+                defaultLanguage: 'en',
+                pageLanguage: 'en',
+                includedLanguages: 'en,hi,bn',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false,
+                multilanguagePage: true
+            },google_translate_element);
+        };
+    </script> -->
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
